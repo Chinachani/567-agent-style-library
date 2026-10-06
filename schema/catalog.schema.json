@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Chinachani/567-agent-style-library/main/schema/catalog.schema.json",
+  "title": "567 Agent Style Library catalog v1",
+  "type": "object",
+  "required": ["schemaVersion", "name", "repository", "catalogVersion", "templates", "sources"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "name": {"const": "567-agent-style-library"},
+    "repository": {"const": "https://github.com/Chinachani/567-agent-style-library"},
+    "catalogVersion": {"$ref": "#/$defs/hash"},
+    "templates": {"type": "array", "minItems": 1, "maxItems": 1000, "items": {"$ref": "#/$defs/template"}},
+    "sources": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "object", "required": ["source", "revision", "metadataUrl", "contentHash"], "properties": {
+      "source": {"enum": ["vetta", "stylekit"]},
+      "revision": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
+      "metadataUrl": {"type": "string", "format": "uri"},
+      "contentHash": {"$ref": "#/$defs/hash"}
+    }}}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "short": {"type": "string", "minLength": 1, "maxLength": 500},
+    "path": {"type": "string", "minLength": 1, "maxLength": 200, "pattern": "^(?!/)(?!.*[\\\\%?#:])(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*//)[^\\u0000]+$"},
+    "resource": {
+      "type": "object",
+      "required": ["path", "encoding", "bytes"],
+      "properties": {
+        "path": {"$ref": "#/$defs/path"},
+        "role": {"enum": ["spec", "theme", "demo", "cover", "preview", "package"]},
+        "bytes": {"type": "integer", "minimum": 0, "maximum": 8388608}
+      },
+      "oneOf": [
+        {"required": ["content"], "properties": {"encoding": {"const": "text"}, "content": {"type": "string", "minLength": 1, "maxLength": 65536}}},
+        {"required": ["url"], "properties": {"encoding": {"const": "binary"}, "url": {"allOf": [{"$ref": "#/$defs/path"}, {"pattern": "^assets/(vetta|stylekit)/"}]}}}
+      ]
+    },
+    "template": {
+      "type": "object",
+      "required": ["kind", "slug", "name", "category", "vibe", "blurb", "license", "licenseUrl", "origin", "provenance", "attribution", "resources"],
+      "properties": {
+        "kind": {"const": "design-system"},
+        "slug": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"},
+        "name": {"$ref": "#/$defs/short"},
+        "category": {"$ref": "#/$defs/short"},
+        "vibe": {"enum": ["light", "dark"]},
+        "blurb": {"$ref": "#/$defs/short"},
+        "tagline": {"type": "object", "required": ["zh", "en"], "properties": {"zh": {"$ref": "#/$defs/short"}, "en": {"$ref": "#/$defs/short"}}},
+        "license": {"enum": ["MIT", "CC-BY-4.0"]},
+        "licenseUrl": {"type": "string", "format": "uri"},
+        "origin": {"type": "object", "required": ["upstream"], "properties": {"upstream": {"type": "string", "format": "uri"}}},
+        "provenance": {"type": "object", "required": ["source", "repository", "upstreamSlug"], "properties": {"source": {"enum": ["vetta", "stylekit"]}, "repository": {"type": "string", "format": "uri"}, "upstreamSlug": {"$ref": "#/$defs/short"}, "upstreamMetadata": {"type": "object"}}},
+        "attribution": {"type": "string", "minLength": 1},
+        "resources": {"type": "array", "minItems": 4, "maxItems": 60, "items": {"$ref": "#/$defs/resource"}}
+      }
+    }
+  }
+}

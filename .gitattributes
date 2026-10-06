@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Mirror image bytes exactly; do not normalize SVG line endings on checkout.
+assets/** binary
