@@ -38,6 +38,21 @@ def failed():
 
 
 class UpstreamContractTests(unittest.TestCase):
+    def test_vetta_curated_rows_get_repository_provenance(self):
+        entry = template()
+        entry["origin"] = {"type": "curated", "sourceUrl": "https://example.com/reference"}
+
+        def fetch(url, limit=sync.MAX_FILE):
+            if url.endswith(".json"):
+                return sync.json_bytes({"schemaVersion": 1, "templates": [entry]})
+            return MIT.encode()
+
+        data = sync.import_vetta(fetch, lambda _: REV)
+        imported = data["templates"][0]
+        self.assertEqual(imported["origin"]["upstream"], f"https://github.com/{sync.VETTA}")
+        self.assertEqual(imported["origin"]["sourceUrl"], "https://example.com/reference")
+        self.assertNotIn("upstream", entry["origin"])
+
     def test_vetta_mirrors_are_one_import_preserving_entry_license_and_origin(self):
         entry = template()
         entry["license"] = "CC-BY-4.0"

@@ -11,11 +11,31 @@ License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
+# Site Stencil — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://digitalsynopsis.com/design/graphic-design-trends-2026/
+Prior adaptation: Authored by Grok Bot. Original system distilled from 2026 utilitarian / wayfinding reporting (Digital Synopsis, Din Studio). No third-party assets.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
 # Doodle Pop — attribution
 
 Catalog source: https://github.com/openvetta/vetta-design-templates
 Upstream: https://github.com/VoltAgent/awesome-design-md
 Prior adaptation: Vetta-adapted from awesome-design-md (MIT).
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Pixel Pocket — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://din-studio.com/graphic-design-trends-in-2026-11-visual-styles-for-modern-design/
+Prior adaptation: Authored by Grok Bot. Original system distilled from 2026 pixel-art revival reporting (Din Studio, Digital Synopsis). No third-party assets or game sprites.
 License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
@@ -29,11 +49,41 @@ License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
+# Meridian — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://business.pinterest.com/pdf/pinterest-predicts/2026-trend-report/
+Prior adaptation: Authored by Grok Bot. Original system distilled from Pinterest Predicts 2026 Extra Celestial — intergalactic appetite, opalescent search, cosmic silhouette — held to a ruled transit catalog instead of holograms, alien costume, or a chrome orb. No third-party charts or marks.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Sumi Ink — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://designmd.app/library/wabi-sabi-anti-ux
+Prior adaptation: Authored by Grok Bot. Original system distilled from 2025–2026 wabi-sabi / anti-AI handmade reporting. No third-party assets.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
 # Spotify — attribution
 
 Catalog source: https://github.com/openvetta/vetta-design-templates
 Upstream: https://github.com/VoltAgent/awesome-design-md
 Prior adaptation: Vetta-adapted from awesome-design-md (MIT).
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Late Edition — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://www.canva.com/newsroom/news/design-trends-2026/
+Prior adaptation: Authored by Grok Bot. Original system distilled from Canva's 2026 Opt-Out Era: serif type, a pared palette, and structured editorial layouts in place of bright, cute chrome. The broadsheet is the product form of that restraint. No third-party assets.
 License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
@@ -56,11 +106,31 @@ License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
+# Lamp Room — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://digitalheroesco.com/styles/
+Prior adaptation: Authored by Grok Bot. Original system distilled from 2026 dark-academia style reporting. No third-party assets.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
 # Vercel — attribution
 
 Catalog source: https://github.com/openvetta/vetta-design-templates
 Upstream: https://github.com/VoltAgent/awesome-design-md
 Prior adaptation: Vetta-adapted from awesome-design-md (MIT).
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Cyanotype — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://www.omoro.io/styles/trending
+Prior adaptation: Authored by Grok Bot. Original system distilled from 2026 cyanotype / sun-print trend reporting (Omoro, Seso). No third-party assets.
 License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
@@ -74,11 +144,41 @@ License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
+# First Frame — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://www.creativemarket.com/trends/
+Prior adaptation: Authored by Grok Bot. Original system distilled from Creative Market's 2026 Director's Cut: a film title paused in the frame, soft serif, grain, and intimate credits. No third-party stills, posters, or brand marks.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Wax Coat — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://www.canva.com/newsroom/news/design-trends-2026/
+Prior adaptation: Authored by Grok Bot. Original system distilled from Canva's 2026 Texture Check trend: tactile surfaces — waxy, mineral, touchable — treated as the design itself. No third-party textures, photographs, or brand assets.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
 # GitHub — attribution
 
 Catalog source: https://github.com/openvetta/vetta-design-templates
 Upstream: https://github.com/VoltAgent/awesome-design-md
 Prior adaptation: Vetta-adapted from awesome-design-md (MIT).
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Field Drawer — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://newsroom.pinterest.com/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/
+Prior adaptation: Authored by Grok Bot. Original system distilled from Pinterest Predicts 2026 Khaki Coded — field jackets, utility cloth, and the paleontologist aesthetic — held to a numbered specimen drawer instead of desert costume or adventure illustration. No third-party assets.
 License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
@@ -93,11 +193,31 @@ License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
+# Y3K Chrome — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://aigoodies.beehiiv.com/p/aesthetics-2026
+Prior adaptation: Authored by Grok Bot. Original system distilled from 2026 Y3K hyperfuturism and liquid-chrome reporting. No third-party assets.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
 # Apple — attribution
 
 Catalog source: https://github.com/openvetta/vetta-design-templates
 Upstream: https://github.com/VoltAgent/awesome-design-md
 Prior adaptation: Vetta-adapted from awesome-design-md (MIT).
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Tape Diary — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://www.canva.com/newsroom/news/design-trends-2026/
+Prior adaptation: Authored by Grok Bot. Original system distilled from 2026 collage reporting: Canva's Notes App Chic, Figma's collage web trend, and Adobe's layered mixed-media layouts. No third-party scans, photos, or sticker art.
 License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
@@ -121,11 +241,31 @@ License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
+# Firn — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://newsroom.pinterest.com/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/
+Prior adaptation: Authored by Grok Bot. Original system distilled from Pinterest Predicts 2026 Cool Blue: subzero sophistication and a glacier palette, held to a still-water ledger instead of weather, drinks, or frost. No third-party assets.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
 # Anthropic — attribution
 
 Catalog source: https://github.com/openvetta/vetta-design-templates
 Upstream: https://github.com/VoltAgent/awesome-design-md
 Prior adaptation: Vetta-adapted from awesome-design-md (MIT).
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Travertine — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://www.mikolmarmi.com/blogs/design/quiet-luxury-natural-stone-home-2026
+Prior adaptation: Authored by Grok Bot. Original system distilled from 2026 quiet-luxury stone reporting (MIKOL on travertine and limestone; Habitus Journal on stone as editorial co-star). No third-party assets.
 License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
@@ -139,11 +279,31 @@ License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
+# Riso Press — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://www.creativebloq.com/design/graphic-design/texture-warmth-and-tactile-rebellion-the-big-graphic-design-trends-for-2026
+Prior adaptation: Authored by Grok Bot. Original Vetta system distilled from 2026 reporting on anti-AI craft and risograph print texture. No third-party screenshots, markup, or brand assets. Not affiliated with Riso Kagaku.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
 # Airbnb — attribution
 
 Catalog source: https://github.com/openvetta/vetta-design-templates
 Upstream: https://github.com/VoltAgent/awesome-design-md
 Prior adaptation: Vetta-adapted from awesome-design-md (MIT).
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Marquee Deco — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://newsroom.pinterest.com/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/
+Prior adaptation: Authored by Grok Bot. Original system distilled from Pinterest Predicts 2026 Neo Deco — chevrons, fan arches, and brass edges — with the same geometric glamour reported as 2026 Art Deco luxe. No third-party ornaments or brand marks.
 License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
@@ -157,11 +317,41 @@ License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
+# Last Fitting — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://saintandsofia.com/blogs/features/is-this-the-end-of-quiet-luxury
+Prior adaptation: Authored by Grok Bot. Original system distilled from 2026 reporting on tactile luxury after cold minimalism: wool, suede, and hand-finish as the refinement (Saint + Sofia; Krystal Hudson on quiet-luxury materials). No third-party assets.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Blotter — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://thedieline.com/combo-delivers-scent-and-sensibility-for-nue-co/
+Prior adaptation: Authored by Grok Bot. Original system distilled from Pinterest Predicts 2026 Scent Stacking (https://newsroom.pinterest.com/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/) and from Dieline's March 2026 note on tonal fragrance layering. Held to three blotter papers and a formula instead of bottles, florals, or translucent gummies. No third-party assets.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
 # Figma — attribution
 
 Catalog source: https://github.com/openvetta/vetta-design-templates
 Upstream: https://github.com/VoltAgent/awesome-design-md
 Prior adaptation: Vetta-adapted from awesome-design-md (MIT).
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Solarpunk — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://designdrop.ghost.io/solarpunk-aesthetic-eco-futurism-2026/
+Prior adaptation: Authored by Grok Bot. Original system distilled from 2026 solarpunk reporting (Design Drop). No third-party assets.
 License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 

@@ -100,9 +100,9 @@ def download(url, limit=MAX_FILE):
                 return body
         except (urllib.error.URLError, TimeoutError, OSError) as error:
             if isinstance(error, urllib.error.HTTPError) and error.code not in {429, 500, 502, 503, 504}:
-                raise SyncError(f"Upstream HTTP {error.code}") from error
+                raise SyncError(f"Upstream HTTP {error.code} for {url}") from error
             if attempt == 2:
-                raise SyncError("Upstream request failed after retries") from error
+                raise SyncError(f"Upstream request failed after retries for {url}") from error
             time.sleep(2 ** attempt)
 
 
@@ -234,12 +234,12 @@ def import_vetta(fetch=download, resolve=revision):
             body = json.loads(fetch(url, MAX_CATALOG))
             if body.get("schemaVersion") != 1:
                 raise SyncError("Unknown catalog schema")
-            entries = validate_templates(copy.deepcopy(body.get("templates")))
+            entries = validate_templates(normalize_vetta_entries(body.get("templates")))
             break
         except (ValueError, TypeError, AttributeError, SyncError) as error:
-            errors.append(error)
+            errors.append(f"{url}: {error}")
     else:
-        raise SyncError("Both Vetta catalog mirrors failed") from errors[-1]
+        raise SyncError("Vetta catalog mirrors failed: " + "; ".join(errors))
     license_text = mit_license(VETTA, rev, fetch)
     awesome = fetch("https://raw.githubusercontent.com/VoltAgent/awesome-design-md/main/LICENSE").decode()
     if "MIT License" not in awesome or "Copyright" not in awesome:
@@ -263,6 +263,22 @@ def import_vetta(fetch=download, resolve=revision):
         add_notices(entry, attribution, licenses)
         entry["provenance"] = {"source": "vetta", "repository": f"https://github.com/{VETTA}", "upstreamSlug": entry["slug"]}
     return {"templates": entries, "assets": assets, "license": license_text, "revision": rev, "metadataUrl": f"https://github.com/{VETTA}/blob/{rev}/{path}"}
+
+
+def normalize_vetta_entries(raw_entries):
+    """Normalize newer curated Vetta rows to the catalog's provenance contract."""
+    entries = copy.deepcopy(raw_entries)
+    if not isinstance(entries, list):
+        return entries
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        origin = entry.get("origin")
+        if isinstance(origin, dict) and not origin.get("upstream"):
+            # Curated rows identify their external reference with sourceUrl. The
+            # containing Vetta repository remains the authoritative upstream.
+            origin["upstream"] = f"https://github.com/{VETTA}"
+    return entries
 
 
 def add_notices(entry, attribution, licenses):
