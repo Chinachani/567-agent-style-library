@@ -152,6 +152,21 @@ class UpstreamContractTests(unittest.TestCase):
         with self.assertRaises(sync.SyncError):
             sync.validate_static(b'<html>error</html>', "cover.jpg")
 
+    def test_invalid_stylekit_cover_is_skipped_without_dropping_style(self):
+        value = style("unsafe-cover")
+        invalid_svg = b'<svg xmlns="http://www.w3.org/2000/svg"><image href="https://evil.invalid/pixel"/></svg>'
+
+        def fetch(url, limit=sync.MAX_FILE):
+            if url == sync.STYLEKIT_API:
+                return sync.json_bytes({"total": 1, "styles": [value]})
+            return invalid_svg if url.endswith(".svg") else MIT.encode()
+
+        data = sync.import_stylekit(fetch, lambda _: REV)
+        self.assertEqual([entry["slug"] for entry in data["templates"]], ["stylekit-unsafe-cover"])
+        self.assertEqual(data["assets"], {})
+        self.assertFalse(any(resource.get("role") == "cover" for resource in data["templates"][0]["resources"]))
+        self.assertIn("cover omitted", data["templates"][0]["origin"]["note"])
+
     def test_literal_parser_accepts_trailing_commas_comments_unicode_and_rejects_code(self):
         parsed = sync.literal_registry('export const stylesMeta: StyleMeta[] = [/* data */{slug: "编辑", colors: {accent: ["#fff",],},},]; // end')
         self.assertEqual(parsed["styles"][0]["slug"], "编辑")

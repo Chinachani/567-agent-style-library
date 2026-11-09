@@ -441,18 +441,25 @@ def import_stylekit(fetch=download, resolve=revision):
         body = literal_registry(fetch(metadata_url).decode())
         entries = stylekit_catalog(body)
     assets = {}
+    cover_warnings = []
 
     def cover(entry):
         key = entry["provenance"]["upstreamSlug"]
         meta = entry["provenance"]["upstreamMetadata"]
         if not meta.get("cover"):
             return None
-        suffix = Path(meta["cover"]).suffix.lower() if isinstance(meta["cover"], str) else ""
-        if suffix not in {".svg", ".jpg", ".jpeg", ".png", ".webp", ".gif"} or meta["cover"] != f"/styles/{key}{suffix}":
-            raise SyncError("Unexpected StyleKit cover path")
-        path = f"assets/stylekit/{key}/cover{suffix}"
-        data = validate_static(fetch(raw(STYLEKIT, rev, f"public/styles/{key}{suffix}")), path)
-        return entry, path, data
+        try:
+            suffix = Path(meta["cover"]).suffix.lower() if isinstance(meta["cover"], str) else ""
+            if suffix not in {".svg", ".jpg", ".jpeg", ".png", ".webp", ".gif"} or meta["cover"] != f"/styles/{key}{suffix}":
+                raise SyncError("Unexpected StyleKit cover path")
+            path = f"assets/stylekit/{key}/cover{suffix}"
+            url = raw(STYLEKIT, rev, f"public/styles/{key}{suffix}")
+            data = validate_static(fetch(url), path)
+            return entry, path, data
+        except (SyncError, ValueError, ET.ParseError) as error:
+            entry["origin"]["note"] = "StyleKit catalog metadata adapted to the 567 Agent schema; palette/spec generated, cover omitted after static safety validation."
+            cover_warnings.append(f"::warning::stylekit cover skipped for {key}: {type(error).__name__}: {error}")
+            return None
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for result in pool.map(cover, entries):
@@ -460,6 +467,8 @@ def import_stylekit(fetch=download, resolve=revision):
                 entry, path, data = result
                 assets[path] = data
                 entry["resources"].append({"path": f"cover{Path(path).suffix}", "role": "cover", "encoding": "binary", "url": path, "bytes": len(data)})
+    for warning in cover_warnings:
+        print(warning, file=sys.stderr)
     for entry in entries:
         add_notices(entry, notice(entry, STYLEKIT), license_text)
     return {"templates": entries, "assets": assets, "license": license_text, "revision": rev, "metadataUrl": metadata_url}
