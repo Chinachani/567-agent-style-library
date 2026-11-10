@@ -1918,3 +1918,13 @@ Original reference: https://stylekit.top/styles/diffraction-foil
 Prior adaptation: StyleKit catalog metadata adapted to the 567 Agent schema; palette/spec generated, cover omitted after static safety validation.
 License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# 电子纸 · StyleKit — attribution
+
+Catalog source: https://github.com/AnxForever/stylekit
+Upstream: https://github.com/AnxForever/stylekit
+Original reference: https://stylekit.top/styles/e-ink
+Prior adaptation: StyleKit catalog metadata adapted to the 567 Agent schema; palette/spec generated, cover mirrored unchanged.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
