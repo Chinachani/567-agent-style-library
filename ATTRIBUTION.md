@@ -1260,12 +1260,12 @@ License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
-# Apple 流动玻璃 · StyleKit — attribution
+# 液态玻璃 · StyleKit — attribution
 
 Catalog source: https://github.com/AnxForever/stylekit
 Upstream: https://github.com/AnxForever/stylekit
 Original reference: https://stylekit.top/styles/liquid-glass
-Prior adaptation: StyleKit catalog metadata adapted to the 567 Agent schema; palette/spec generated, cover mirrored unchanged.
+Prior adaptation: StyleKit catalog metadata adapted to the 567 Agent schema; palette/spec generated, cover omitted after static safety validation.
 License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
