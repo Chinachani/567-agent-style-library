@@ -203,6 +203,15 @@ License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
+# Soft 3D — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Prior adaptation: Authored by Grok Bot. Original Soft 3D system. A user-supplied Xiaohongshu still of a pastel wellness app was used as mood only and is not in the repo. The Puffet family, palette, screens, and copy are original. No upstream assets.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
 # Apple — attribution
 
 Catalog source: https://github.com/openvetta/vetta-design-templates
@@ -366,11 +375,101 @@ License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
+# Diffuse Gradient — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://www.uisdc.com/dispersion-gradient-style
+Prior adaptation: Authored by Grok Bot. Original Diffuse Gradient system: a pale porcelain field, four blurred color pools, milky frost, and film grain, plus a near-black night field with one warm glow. Mood reference only. No third-party assets, screenshots, or marks.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
 # OpenAI — attribution
 
 Catalog source: https://github.com/openvetta/vetta-design-templates
 Upstream: https://github.com/VoltAgent/awesome-design-md
 Prior adaptation: Vetta-adapted from awesome-design-md (MIT).
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Anti-Grid Brutalism — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://brutalistwebsites.com/
+Prior adaptation: Authored by Grok Bot. Original Anti-Grid Brutalism system: paper, ink, one signal red, system grotesk, and overlapping desk windows on a grid that does not close. Mood only, from Pascal Deville's Brutalist Websites directory and writing on raw, asymmetrical, overlapping web brutalism. No third-party assets, screenshots, code, or marks.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Swiss Grid — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://www.nb.admin.ch/en/the-international-style-1950-1970
+Prior adaptation: Authored by Grok Bot. Original Swiss Grid system. Mood only: the International Typographic Style as recorded by the Swiss National Library for 1950–1970 (a typographic grid, sans-serif type, rational composition, restrained color), the Zurich and Basel schools and Neue Grafik (https://www.aboutswitzerland.eda.admin.ch/en/swiss-style-forever-the-story-of-a-graphic-design-tradition), Müller-Brockmann’s grid as a measure the elements fit, and the 1957 grotesks Helvetica and Univers. Palette, screens, and copy are original. No posters, photographs, or marks.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Bento Grid — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://www.jay-han.com/2023/03/19/web-design-trend-bento-box/
+Prior adaptation: Authored by Grok Bot. Original Bento Grid system (便当格): a warm stone canvas, porcelain and ink tiles of unequal span, one job per tile, and a soft shadow. Mood only. Jay Han (19 Mar 2023) describes the bento-box web trend, the Japanese compartment metaphor, Apple feature grids, and the Metro-origin argument. Luka Krcmar (7 May 2023, https://btf.beehiiv.com/p/summary-grids-10) ties the same mosaic to Apple keynote summary slides. Stylogeny’s bento feature-grid notes — unequal rounded cells, one message each, a fixed gutter — were a checklist, not a palette: this system does not use that page’s cool gray and blue. No third-party assets, screenshots, marks, or copied code.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Kinetic Type — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://www.artofthetitle.com/title/north-by-northwest/
+Prior adaptation: Authored by Grok Bot. Original Kinetic Type system. Mood only, from film-title kinetic type — Saul Bass's moving credits for North by Northwest (1959), as documented by Art of the Title and summarized in the kinetic typography overview (https://en.wikipedia.org/wiki/Kinetic_typography) — and from CSS variable-font axis motion (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide, https://css-irl.info/variable-font-animation-with-css-and-splitting-js/). The reference squeezes with scaleX so the motion survives a static system face, and pins an overlapped lockup under prefers-reduced-motion. No third-party assets, title sequences, or marks.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# 合成波网格 / Synthwave Grid — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://getstylemd.com/library/synthwave-grid
+Prior adaptation: Authored by Grok Bot. Original Synthwave Grid system (合成波网格). The dusk sky, banded sun, and perspective grid take their mood from the public StyleMD Synthwave Grid entry and from published synthwave / outrun descriptions. A sunset photograph was used as mood only and is not in the repo. No StyleMD copy, markup, screenshots, or assets. Wireframe mountains and palm silhouettes are original SVG.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Memphis Pop — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://memphis.it/en/history/
+Prior adaptation: Authored by Grok Bot. Original Memphis Pop system. Mood only: the Memphis Milano collective gathered by Ettore Sottsass in Milan on 11 December 1980 and first shown at the 1981 Salone, as told by Memphis Milano, the Design Museum, and Wallpaper*. Plastic laminate, pastel-and-primary clashes, terrazzo chips, zigzags, and a printed squiggle in the spirit of Sottsass’s Bacterio laminate (1978, Abet Laminati) — the stroke, scatter, palette, and screens here are original. No Abet prints, furniture drawings, logos, or photographs.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Cyber HUD — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://designbycurio.com/learn/cyberpunk-2077-screen
+Prior adaptation: Authored by Grok Bot. Original Cyber HUD system for a local agent console. Mood only, from published notes on cyberpunk screen UI and fictional HUDs: Design by Curio's Cyberpunk 2077 screen guide (brackets, scanlines, mono readouts, spare glitch), UI Lingo's Cyberpunk UI and HUD/FUI entries (chamfer, signal colors, and the split from calm cyan wireframe FUI), Spectre UI's design brief (sharp corners, mono, corner brackets), and Design Lounge's Cyber HUD kit (scanline contrast and reduced-motion). No third-party assets, screenshots, logos, or copied code.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
+# Hardware Tactile — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://rams-foundation.org/magazine/texts/colors/
+Prior adaptation: Authored by Grok Bot. Original Hardware Tactile system. Mood only: Dieter Rams and Dietrich Lubs at Braun, where color marks a function on otherwise quiet plastic (Rams Foundation, Colors), and Teenage Engineering's machined housings, physical encoders, and orange assigned to one job. Latch-1, the palette, and the copy are original. No third-party marks, drawings, or assets.
 License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
