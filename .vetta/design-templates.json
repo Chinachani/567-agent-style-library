@@ -1,13 +1,13 @@
 {
-  "catalogVersion": "46b4967a3751a6bcc6b9aef8601c705e9bc24dcd8bcc4b6d1ad2c7fb6c79631f",
+  "catalogVersion": "11bde67e6771eba66723483cb6f806b5f48b463bfdd0c7a658efb97a80d32aca",
   "name": "567-agent-style-library",
   "repository": "https://github.com/Chinachani/567-agent-style-library",
   "schemaVersion": 1,
   "sources": [
     {
-      "contentHash": "82bd36d1058d8848ce958703adebd0f8817f85ae1cf051253227a276cea2c8cf",
-      "metadataUrl": "https://github.com/openvetta/vetta-design-templates/blob/5d693c6bf732c706a8ede3287bb191c37c30c66e/.vetta/design-templates.json",
-      "revision": "5d693c6bf732c706a8ede3287bb191c37c30c66e",
+      "contentHash": "d4e3b3b14d73aa9f6cf981d83abd3c210c896170b1f98d39d834cd070883e590",
+      "metadataUrl": "https://github.com/openvetta/vetta-design-templates/blob/e8950c6b49f4c95ce2b2299ac252baa5c28095ee/.vetta/design-templates.json",
+      "revision": "e8950c6b49f4c95ce2b2299ac252baa5c28095ee",
       "source": "vetta"
     },
     {
@@ -20,6 +20,7 @@
   "templates": [
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -50,6 +51,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 30154,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/linear/cover.webp"
         },
         {
           "bytes": 23865,
@@ -87,16 +95,18 @@
         "dev",
         "dark"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Site Stencil — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://digitalsynopsis.com/design/graphic-design-trends-2026/\nPrior adaptation: Authored by Grok Bot. Original system distilled from 2026 utilitarian / wayfinding reporting (Digital Synopsis, Din Studio). No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A site-office board: concrete ground, one hazard yellow, black stencil type, and diagonal caution stripes. Function is the decoration.",
       "category": "industrial",
       "collectedAt": "2026-10-31",
@@ -123,6 +133,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 26724,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/site-stencil/cover.webp"
         },
         {
           "bytes": 9661,
@@ -163,11 +180,12 @@
         "hazard",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -198,6 +216,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 36108,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/doodle-pop/cover.webp"
         },
         {
           "bytes": 24161,
@@ -235,16 +260,18 @@
         "playful",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Pixel Pocket — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://din-studio.com/graphic-design-trends-in-2026-11-visual-styles-for-modern-design/\nPrior adaptation: Authored by Grok Bot. Original system distilled from 2026 pixel-art revival reporting (Din Studio, Digital Synopsis). No third-party assets or game sprites.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A pocket inventory on a 4px grid: flat blocks, stepped corners, and a small bright palette. Pixel structure without desktop chrome.",
       "category": "playful",
       "collectedAt": "2026-10-31",
@@ -271,6 +298,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 12766,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/pixel-pocket/cover.webp"
         },
         {
           "bytes": 8207,
@@ -311,11 +345,12 @@
         "dark",
         "game"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -346,6 +381,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 29478,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/stripe/cover.webp"
         },
         {
           "bytes": 24343,
@@ -383,16 +425,18 @@
         "fintech",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Meridian — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://business.pinterest.com/pdf/pinterest-predicts/2026-trend-report/\nPrior adaptation: Authored by Grok Bot. Original system distilled from Pinterest Predicts 2026 Extra Celestial — intergalactic appetite, opalescent search, cosmic silhouette — held to a ruled transit catalog instead of holograms, alien costume, or a chrome orb. No third-party charts or marks.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "An observatory transit sheet: blue-black field, a ruled graticule, one cold meridian, and a magnitude table that fills the frame. Celestial appetite held to a catalog, with no chrome orb, no alien, and no letterbox.",
       "category": "observatory",
       "collectedAt": "2026-11-02",
@@ -419,6 +463,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 21134,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/meridian/cover.webp"
         },
         {
           "bytes": 15039,
@@ -459,16 +510,18 @@
         "grid",
         "dark"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Sumi Ink — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://designmd.app/library/wabi-sabi-anti-ux\nPrior adaptation: Authored by Grok Bot. Original system distilled from 2025–2026 wabi-sabi / anti-AI handmade reporting. No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A tea-room book: rice paper, sumi black, vast margin, and one cinnabar seal. Quiet on purpose, with no chrome to hide behind.",
       "category": "craft",
       "collectedAt": "2026-10-31",
@@ -495,6 +548,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 16246,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/sumi-ink/cover.webp"
         },
         {
           "bytes": 7500,
@@ -535,11 +595,12 @@
         "quiet",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -570,6 +631,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 19188,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/spotify/cover.webp"
         },
         {
           "bytes": 25264,
@@ -607,16 +675,18 @@
         "media",
         "dark"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Late Edition — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://www.canva.com/newsroom/news/design-trends-2026/\nPrior adaptation: Authored by Grok Bot. Original system distilled from Canva's 2026 Opt-Out Era: serif type, a pared palette, and structured editorial layouts in place of bright, cute chrome. The broadsheet is the product form of that restraint. No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A city broadsheet that fills the sheet: warm newsprint, carbon ink, a tracked nameplate, and three ruled columns beside an inside index. Structured and anti-cute, with no blog card and no yellow highlight.",
       "category": "press",
       "collectedAt": "2026-11-01",
@@ -643,6 +713,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 92582,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/late-edition/cover.webp"
         },
         {
           "bytes": 17797,
@@ -683,11 +760,12 @@
         "columns",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -718,6 +796,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 28586,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/meadow-buddies/cover.webp"
         },
         {
           "bytes": 47238,
@@ -759,11 +844,12 @@
         "illustrated",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -794,6 +880,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 35006,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/notion/cover.webp"
         },
         {
           "bytes": 24146,
@@ -831,16 +924,18 @@
         "productivity",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Lamp Room — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://digitalheroesco.com/styles/\nPrior adaptation: Authored by Grok Bot. Original system distilled from 2026 dark-academia style reporting. No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A night library hold desk: oxblood dark, candle amber, and dyed book spines. Scholarly dark, not a cream essay page.",
       "category": "editorial",
       "collectedAt": "2026-10-31",
@@ -867,6 +962,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 16986,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/lamp-room/cover.webp"
         },
         {
           "bytes": 8110,
@@ -907,11 +1009,12 @@
         "academia",
         "serif"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -942,6 +1045,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 18862,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/vercel/cover.webp"
         },
         {
           "bytes": 19731,
@@ -979,16 +1089,18 @@
         "dev",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Cyanotype — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://www.omoro.io/styles/trending\nPrior adaptation: Authored by Grok Bot. Original system distilled from 2026 cyanotype / sun-print trend reporting (Omoro, Seso). No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A sun-print drawing sheet: Prussian blue ground, white linework, a title block, and dimensions. The plan is the interface.",
       "category": "architecture",
       "collectedAt": "2026-10-31",
@@ -1015,6 +1127,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 26282,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/cyanotype/cover.webp"
         },
         {
           "bytes": 8016,
@@ -1055,11 +1174,12 @@
         "dark",
         "technical"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -1090,6 +1210,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 27970,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/headspace/cover.webp"
         },
         {
           "bytes": 21665,
@@ -1127,16 +1254,18 @@
         "playful",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# First Frame — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://www.creativemarket.com/trends/\nPrior adaptation: Authored by Grok Bot. Original system distilled from Creative Market's 2026 Director's Cut: a film title paused in the frame, soft serif, grain, and intimate credits. No third-party stills, posters, or brand marks.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A film title held in the gate: warm black, an ivory serif name, fine grain, a cast column, and a timed scene list between letterbox bars. Intimate and full, with no play button and no gold fan.",
       "category": "cinema",
       "collectedAt": "2026-11-01",
@@ -1163,6 +1292,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 22118,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/first-frame/cover.webp"
         },
         {
           "bytes": 13320,
@@ -1203,16 +1339,18 @@
         "dark",
         "title"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Wax Coat — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://www.canva.com/newsroom/news/design-trends-2026/\nPrior adaptation: Authored by Grok Bot. Original system distilled from Canva's 2026 Texture Check trend: tactile surfaces — waxy, mineral, touchable — treated as the design itself. No third-party textures, photographs, or brand assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A materials-index plate on cool paper: one large mineral swatch with visible tooth and a matte wax coat along its foot, a serif finish name, and a short specification in the margin. Tactile and editorial, with no stone-gallery emptiness, no frosted glass, and no candy clay.",
       "category": "material",
       "collectedAt": "2026-10-31",
@@ -1239,6 +1377,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 10336,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/wax-coat/cover.webp"
         },
         {
           "bytes": 12266,
@@ -1279,11 +1424,12 @@
         "editorial",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -1314,6 +1460,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 31374,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/github/cover.webp"
         },
         {
           "bytes": 25598,
@@ -1351,16 +1504,18 @@
         "dev",
         "dark"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Field Drawer — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://newsroom.pinterest.com/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/\nPrior adaptation: Authored by Grok Bot. Original system distilled from Pinterest Predicts 2026 Khaki Coded — field jackets, utility cloth, and the paleontologist aesthetic — held to a numbered specimen drawer instead of desert costume or adventure illustration. No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A museum field drawer: khaki board, eight material blocks seated in a recess, and a depth ledger beside them. Expedition utility held to a specimen tray, with no sky, no cartoon bone, and no hazard stripe.",
       "category": "field",
       "collectedAt": "2026-11-02",
@@ -1387,6 +1542,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 17682,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/field-drawer/cover.webp"
         },
         {
           "bytes": 14939,
@@ -1427,11 +1589,12 @@
         "utility",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -1463,6 +1626,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 27314,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/geometric-bold/cover.webp"
         },
         {
           "bytes": 26596,
@@ -1503,16 +1673,18 @@
         "editorial",
         "high-contrast"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Y3K Chrome — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://aigoodies.beehiiv.com/p/aesthetics-2026\nPrior adaptation: Authored by Grok Bot. Original system distilled from 2026 Y3K hyperfuturism and liquid-chrome reporting. No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "Liquid chrome in a void: silver metal type, one iridescent orb, and hairline specs. Hyperfuturism without glass blur.",
       "category": "future",
       "collectedAt": "2026-10-31",
@@ -1539,6 +1711,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 18608,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/y3k-chrome/cover.webp"
         },
         {
           "bytes": 7277,
@@ -1579,16 +1758,18 @@
         "metal",
         "iridescent"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Soft 3D — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nPrior adaptation: Authored by Grok Bot. Original Soft 3D system. A user-supplied Xiaohongshu still of a pastel wellness app was used as mood only and is not in the repo. The Puffet family, palette, screens, and copy are original. No upstream assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "Matte soft-3D clay for a quiet wellness hour: peach-cream ground, lilac accents, pillow cards with a warm seam edge, one near-black pill for the commit action, and an original pebble family (the Puffets) modeled with radial volume, a broad highlight, and a contact shadow.",
       "category": "playful",
       "collectedAt": "2026-11-13",
@@ -1615,6 +1796,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 27676,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/soft-3d/cover.webp"
         },
         {
           "bytes": 61659,
@@ -1657,11 +1845,12 @@
         "wellness",
         "pastel"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -1692,6 +1881,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 14142,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/apple/cover.webp"
         },
         {
           "bytes": 19765,
@@ -1729,16 +1925,18 @@
         "consumer",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Tape Diary — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://www.canva.com/newsroom/news/design-trends-2026/\nPrior adaptation: Authored by Grok Bot. Original system distilled from 2026 collage reporting: Canva's Notes App Chic, Figma's collage web trend, and Adobe's layered mixed-media layouts. No third-party scans, photos, or sticker art.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A personal Thursday assembled on kraft: one washi strip, a tilted print, an italic note, and a perforated ticket. Collage as a diary page, not a print shop and not a sticker game.",
       "category": "diary",
       "collectedAt": "2026-10-31",
@@ -1765,6 +1963,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 21854,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/tape-diary/cover.webp"
         },
         {
           "bytes": 13261,
@@ -1805,11 +2010,12 @@
         "analog",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -1840,6 +2046,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 34084,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/discord/cover.webp"
         },
         {
           "bytes": 25095,
@@ -1877,11 +2090,12 @@
         "consumer",
         "dark"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -1913,6 +2127,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 20916,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/claymorphism/cover.webp"
         },
         {
           "bytes": 33396,
@@ -1954,16 +2175,18 @@
         "soft",
         "consumer"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Firn — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://newsroom.pinterest.com/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/\nPrior adaptation: Authored by Grok Bot. Original system distilled from Pinterest Predicts 2026 Cool Blue: subzero sophistication and a glacier palette, held to a still-water ledger instead of weather, drinks, or frost. No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A glacial-water allocation: pale ice paper, three vertical cores in flat mineral steps, a grotesque source name, and one steel line over a ledger. Subzero and still, with no frost blur, no bubbles, and no sky.",
       "category": "cold",
       "collectedAt": "2026-11-01",
@@ -1990,6 +2213,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 22302,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/firn/cover.webp"
         },
         {
           "bytes": 15037,
@@ -2030,11 +2260,12 @@
         "grotesque",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -2065,6 +2296,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 29544,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/anthropic/cover.webp"
         },
         {
           "bytes": 20691,
@@ -2102,16 +2340,18 @@
         "ai",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Travertine — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://www.mikolmarmi.com/blogs/design/quiet-luxury-natural-stone-home-2026\nPrior adaptation: Authored by Grok Bot. Original system distilled from 2026 quiet-luxury stone reporting (MIKOL on travertine and limestone; Habitus Journal on stone as editorial co-star). No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A private viewing on honed stone: warm ivory ground, a charcoal serif, and one bronze hairline. Luxury expressed as material and space, not as shine.",
       "category": "luxury",
       "collectedAt": "2026-10-31",
@@ -2138,6 +2378,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 12432,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/travertine/cover.webp"
         },
         {
           "bytes": 8310,
@@ -2178,11 +2425,12 @@
         "editorial",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -2213,6 +2461,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 19788,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/netflix/cover.webp"
         },
         {
           "bytes": 21423,
@@ -2250,16 +2505,18 @@
         "media",
         "dark"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Riso Press — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://www.creativebloq.com/design/graphic-design/texture-warmth-and-tactile-rebellion-the-big-graphic-design-trends-for-2026\nPrior adaptation: Authored by Grok Bot. Original Vetta system distilled from 2026 reporting on anti-AI craft and risograph print texture. No third-party screenshots, markup, or brand assets. Not affiliated with Riso Kagaku.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A risograph press desk: warm uncoated paper, three flat spot inks, halftone plates, crop marks, and a hard misregistered second plate where other systems would put a shadow.",
       "category": "print",
       "collectedAt": "2026-10-31",
@@ -2286,6 +2543,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 69512,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/riso-press/cover.webp"
         },
         {
           "bytes": 33820,
@@ -2327,11 +2591,12 @@
         "light",
         "craft"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -2362,6 +2627,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 30770,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/airbnb/cover.webp"
         },
         {
           "bytes": 22904,
@@ -2399,16 +2671,18 @@
         "consumer",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Marquee Deco — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://newsroom.pinterest.com/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/\nPrior adaptation: Authored by Grok Bot. Original system distilled from Pinterest Predicts 2026 Neo Deco — chevrons, fan arches, and brass edges — with the same geometric glamour reported as 2026 Art Deco luxe. No third-party ornaments or brand marks.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A supper-club night bill: black lacquer, one gold, a sunburst around a stepped frame, and a fan of rays over tracked capitals. Geometric glamour with no quiet stone and no Bauhaus primaries.",
       "category": "evening",
       "collectedAt": "2026-10-31",
@@ -2435,6 +2709,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 35730,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/marquee-deco/cover.webp"
         },
         {
           "bytes": 11267,
@@ -2475,11 +2756,12 @@
         "dark",
         "evening"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -2510,6 +2792,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 19244,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/duolingo/cover.webp"
         },
         {
           "bytes": 21741,
@@ -2547,16 +2836,18 @@
         "playful",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Last Fitting — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://saintandsofia.com/blogs/features/is-this-the-end-of-quiet-luxury\nPrior adaptation: Authored by Grok Bot. Original system distilled from 2026 reporting on tactile luxury after cold minimalism: wool, suede, and hand-finish as the refinement (Saint + Sofia; Krystal Hudson on quiet-luxury materials). No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A tailoring appointment on dark wool: ivory grotesque, cloth-colored rules, and three measurements. Tactile and exact, with no metal shine.",
       "category": "fashion",
       "collectedAt": "2026-10-31",
@@ -2583,6 +2874,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 8808,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/last-fitting/cover.webp"
         },
         {
           "bytes": 8368,
@@ -2623,16 +2921,18 @@
         "quiet",
         "dark"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Blotter — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://thedieline.com/combo-delivers-scent-and-sensibility-for-nue-co/\nPrior adaptation: Authored by Grok Bot. Original system distilled from Pinterest Predicts 2026 Scent Stacking (https://newsroom.pinterest.com/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/) and from Dieline's March 2026 note on tonal fragrance layering. Held to three blotter papers and a formula instead of bottles, florals, or translucent gummies. No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A perfume formula on three blotter strata: pale top, rose heart, resin base, and a percentage ledger that sums to the whole. Scent made as paper and type, with no bottle, no flower, and no gummy translucency.",
       "category": "scent",
       "collectedAt": "2026-11-02",
@@ -2659,6 +2959,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 23814,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/blotter/cover.webp"
         },
         {
           "bytes": 14427,
@@ -2699,11 +3006,12 @@
         "tactile",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -2734,6 +3042,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 23700,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/figma/cover.webp"
         },
         {
           "bytes": 24975,
@@ -2771,16 +3086,18 @@
         "creative",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Solarpunk — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://designdrop.ghost.io/solarpunk-aesthetic-eco-futurism-2026/\nPrior adaptation: Authored by Grok Bot. Original system distilled from 2026 solarpunk reporting (Design Drop). No third-party assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A neighborhood power co-op: linen paper, leaf green, and a brass sun. Technology drawn like a plant, owned in common.",
       "category": "civic",
       "collectedAt": "2026-10-31",
@@ -2807,6 +3124,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 25326,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/solarpunk/cover.webp"
         },
         {
           "bytes": 8107,
@@ -2847,11 +3171,12 @@
         "sun",
         "community"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -2883,6 +3208,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 27410,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/glassmorphism/cover.webp"
         },
         {
           "bytes": 34479,
@@ -2924,16 +3256,18 @@
         "cinematic",
         "consumer"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Diffuse Gradient — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://www.uisdc.com/dispersion-gradient-style\nPrior adaptation: Authored by Grok Bot. Original Diffuse Gradient system: a pale porcelain field, four blurred color pools, milky frost, and film grain, plus a near-black night field with one warm glow. Mood reference only. No third-party assets, screenshots, or marks.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "Pale porcelain washed by four blurred pools — blush, lilac, peach, and mint — under film grain, with milky frost cards, airy bold type, and pill actions. A separate night field is near-black with one warm amber-to-mauve glow. Not colorless night glass, not clay, not chrome.",
       "category": "atmosphere",
       "collectedAt": "2026-11-13",
@@ -2960,6 +3294,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 24844,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/diffuse-gradient/cover.webp"
         },
         {
           "bytes": 58328,
@@ -3001,11 +3342,12 @@
         "light",
         "wellness"
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -3036,6 +3378,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 30160,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/openai/cover.webp"
         },
         {
           "bytes": 19411,
@@ -3073,16 +3422,18 @@
         "ai",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Anti-Grid Brutalism — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://brutalistwebsites.com/\nPrior adaptation: Authored by Grok Bot. Original Anti-Grid Brutalism system: paper, ink, one signal red, system grotesk, and overlapping desk windows on a grid that does not close. Mood only, from Pascal Deville's Brutalist Websites directory and writing on raw, asymmetrical, overlapping web brutalism. No third-party assets, screenshots, code, or marks.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "Anti-grid brutalism for a local-first agent desk: neutral paper, ink rules, system grotesk and mono, zero radius, and overlapping windows whose titles stay readable. One signal red marks the live window. The grid is drawn and then broken. Not stickers, not a Swiss column, not a beveled desktop.",
       "category": "brutalist",
       "collectedAt": "2026-11-13",
@@ -3110,6 +3461,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 21266,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/anti-grid-brutalism/cover.webp"
         },
         {
           "bytes": 25885,
@@ -3151,16 +3509,18 @@
         "grotesk",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Swiss Grid — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://www.nb.admin.ch/en/the-international-style-1950-1970\nPrior adaptation: Authored by Grok Bot. Original Swiss Grid system. Mood only: the International Typographic Style as recorded by the Swiss National Library for 1950–1970 (a typographic grid, sans-serif type, rational composition, restrained color), the Zurich and Basel schools and Neue Grafik (https://www.aboutswitzerland.eda.admin.ch/en/swiss-style-forever-the-story-of-a-graphic-design-tradition), Müller-Brockmann’s grid as a measure the elements fit, and the 1957 grotesks Helvetica and Univers. Palette, screens, and copy are original. No posters, photographs, or marks.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "Swiss International Typographic Style for a local-first agent: a strict modular grid, a Helvetica-like grotesk, asymmetric flush-left fields, huge lowercase type in open whitespace, hairline rules, and one signal red used only as the active index. The structure is the image. Not Bauhaus color blocks, not a neon perspective floor, and not a filled serif broadsheet.",
       "category": "editorial",
       "collectedAt": "2026-11-13",
@@ -3188,6 +3548,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 19184,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/swiss-grid/cover.webp"
         },
         {
           "bytes": 26621,
@@ -3229,16 +3596,18 @@
         "typographic",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Bento Grid — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://www.jay-han.com/2023/03/19/web-design-trend-bento-box/\nPrior adaptation: Authored by Grok Bot. Original Bento Grid system (便当格): a warm stone canvas, porcelain and ink tiles of unequal span, one job per tile, and a soft shadow. Mood only. Jay Han (19 Mar 2023) describes the bento-box web trend, the Japanese compartment metaphor, Apple feature grids, and the Metro-origin argument. Luka Krcmar (7 May 2023, https://btf.beehiiv.com/p/summary-grids-10) ties the same mosaic to Apple keynote summary slides. Stylogeny’s bento feature-grid notes — unequal rounded cells, one message each, a fixed gutter — were a checklist, not a palette: this system does not use that page’s cool gray and blue. No third-party assets, screenshots, marks, or copied code.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A keynote-polished desk of unequal rounded tiles on one warm-stone grid. Each tile does a single job. Porcelain tiles sit beside ink tiles, with a soft shadow, one ink commit pill, and a single iris signal. Not equal cards, not glass, not clay, not a neon horizon.",
       "category": "product",
       "collectedAt": "2026-11-13",
@@ -3266,6 +3635,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 28196,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/bento-grid/cover.webp"
         },
         {
           "bytes": 34463,
@@ -3308,16 +3684,18 @@
         "modular",
         "product"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Kinetic Type — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://www.artofthetitle.com/title/north-by-northwest/\nPrior adaptation: Authored by Grok Bot. Original Kinetic Type system. Mood only, from film-title kinetic type — Saul Bass's moving credits for North by Northwest (1959), as documented by Art of the Title and summarized in the kinetic typography overview (https://en.wikipedia.org/wiki/Kinetic_typography) — and from CSS variable-font axis motion (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide, https://css-irl.info/variable-font-animation-with-css-and-splitting-js/). The reference squeezes with scaleX so the motion survives a static system face, and pins an overlapped lockup under prefers-reduced-motion. No third-party assets, title sequences, or marks.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "Near-monochrome kinetic type for a local agent: oversized grotesque words squeeze, slide, and overlap on warm paper, with one ink field and a single signal red. Motion is pure CSS and falls back to a striking overlapped lockup. Not a newspaper, not a Bauhaus shape poster, not neon.",
       "category": "type",
       "collectedAt": "2026-11-13",
@@ -3345,6 +3723,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 21536,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/kinetic-type/cover.webp"
         },
         {
           "bytes": 27699,
@@ -3387,16 +3772,18 @@
         "light",
         "display"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# 合成波网格 / Synthwave Grid — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://getstylemd.com/library/synthwave-grid\nPrior adaptation: Authored by Grok Bot. Original Synthwave Grid system (合成波网格). The dusk sky, banded sun, and perspective grid take their mood from the public StyleMD Synthwave Grid entry and from published synthwave / outrun descriptions. A sunset photograph was used as mood only and is not in the repo. No StyleMD copy, markup, screenshots, or assets. Wireframe mountains and palm silhouettes are original SVG.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "Neon 1980s dusk for a local-first desktop agent: a deep purple-to-magenta sky, a horizontally banded sun, a cyan one-point grid to the horizon, wireframe mountains, and palm silhouettes. Display type is italic and solid with a spare glow; body text is plain and high-contrast on an opaque dusk panel. Distinct from a liquid-chrome void and from a beveled 1995 desktop.",
       "category": "outrun",
       "collectedAt": "2026-11-13",
@@ -3424,6 +3811,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 34576,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/synthwave-grid/cover.webp"
         },
         {
           "bytes": 39693,
@@ -3465,16 +3859,18 @@
         "grid",
         "retro-future"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Memphis Pop — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://memphis.it/en/history/\nPrior adaptation: Authored by Grok Bot. Original Memphis Pop system. Mood only: the Memphis Milano collective gathered by Ettore Sottsass in Milan on 11 December 1980 and first shown at the 1981 Salone, as told by Memphis Milano, the Design Museum, and Wallpaper*. Plastic laminate, pastel-and-primary clashes, terrazzo chips, zigzags, and a printed squiggle in the spirit of Sottsass’s Bacterio laminate (1978, Abet Laminati) — the stroke, scatter, palette, and screens here are original. No Abet prints, furniture drawings, logos, or photographs.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "Postmodern laminate for a local agent desk: cream ground, black graphic lines, a lemon commit, cobalt focus, pastel chips beside the primaries, one printed squiggle, a confetti terrazzo sample, a zigzag rule, and a hard striped offset shadow. Playful and flat. Not hand-drawn, not a neon grid, not a Bauhaus poster.",
       "category": "playful",
       "collectedAt": "2026-11-13",
@@ -3502,6 +3898,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 48396,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/memphis-pop/cover.webp"
         },
         {
           "bytes": 30746,
@@ -3544,16 +3947,18 @@
         "light",
         "pattern"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Cyber HUD — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://designbycurio.com/learn/cyberpunk-2077-screen\nPrior adaptation: Authored by Grok Bot. Original Cyber HUD system for a local agent console. Mood only, from published notes on cyberpunk screen UI and fictional HUDs: Design by Curio's Cyberpunk 2077 screen guide (brackets, scanlines, mono readouts, spare glitch), UI Lingo's Cyberpunk UI and HUD/FUI entries (chamfer, signal colors, and the split from calm cyan wireframe FUI), Spectre UI's design brief (sharp corners, mono, corner brackets), and Design Lounge's Cyber HUD kit (scanline contrast and reduced-motion). No third-party assets, screenshots, logos, or copied code.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "A dark field instrument for a local agent console: near-black ground, chamfered plates, L-shaped targeting brackets, static scanlines, and monospace readouts. Acid yellow is the live commit, cyan is structure, magenta is a fault. Glitch is a rare 1px split on the wordmark. A flat orthographic grid sits in the margin. Not a sunset or a perspective floor, not beveled desktop chrome, not liquid chrome, not a pixel inventory.",
       "category": "dev",
       "collectedAt": "2026-11-13",
@@ -3581,6 +3986,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 36496,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/cyber-hud/cover.webp"
         },
         {
           "bytes": 32568,
@@ -3622,16 +4034,18 @@
         "mono",
         "cyberpunk"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "dark"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
       },
       "attribution": "# Hardware Tactile — attribution\n\nCatalog source: https://github.com/openvetta/vetta-design-templates\nUpstream: https://github.com/openvetta/vetta-design-templates\nOriginal reference: https://rams-foundation.org/magazine/texts/colors/\nPrior adaptation: Authored by Grok Bot. Original Hardware Tactile system. Mood only: Dieter Rams and Dietrich Lubs at Braun, where color marks a function on otherwise quiet plastic (Rams Foundation, Colors), and Teenage Engineering's machined housings, physical encoders, and orange assigned to one job. Latch-1, the palette, and the copy are original. No third-party marks, drawings, or assets.\nLicense: MIT (https://opensource.org/license/mit)\nChanges by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.\n",
+      "author": "Grok Bot",
       "blurb": "Matte desk instrument for a local agent: warm plastic chassis, a brushed aluminum nameplate, flat phosphor segments in a recessed well, encoder knobs with an orange notch, square keys with a short lip, and a single orange run key. Clean and modern, not glossy gel and not clay.",
       "category": "instrument",
       "collectedAt": "2026-11-13",
@@ -3659,6 +4073,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 25710,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/hardware-tactile/cover.webp"
         },
         {
           "bytes": 39227,
@@ -3700,11 +4121,12 @@
         "orange",
         "light"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -3735,6 +4157,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 38970,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/slack/cover.webp"
         },
         {
           "bytes": 24212,
@@ -3772,11 +4201,12 @@
         "productivity",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -3807,6 +4237,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 22720,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/coinbase/cover.webp"
         },
         {
           "bytes": 23007,
@@ -3844,11 +4281,12 @@
         "fintech",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -3879,6 +4317,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 28668,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/shopify/cover.webp"
         },
         {
           "bytes": 24990,
@@ -3916,11 +4361,12 @@
         "commerce",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -3951,6 +4397,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 31446,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/medium/cover.webp"
         },
         {
           "bytes": 23170,
@@ -3988,11 +4441,12 @@
         "editorial",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
       "assets": {
+        "cover": "cover.webp",
         "demo": "demo.html",
         "spec": "DESIGN.md",
         "theme": "theme.css"
@@ -4023,6 +4477,13 @@
           "encoding": "text",
           "path": "DESIGN.md",
           "role": "spec"
+        },
+        {
+          "bytes": 29192,
+          "encoding": "binary",
+          "path": "cover.webp",
+          "role": "cover",
+          "url": "assets/vetta/retro-95/cover.webp"
         },
         {
           "bytes": 22892,
@@ -4060,7 +4521,7 @@
         "retro",
         "light"
       ],
-      "version": "1.1.0",
+      "version": "1.1.1",
       "vibe": "light"
     },
     {
