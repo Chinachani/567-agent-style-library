@@ -474,6 +474,16 @@ License: MIT (https://opensource.org/license/mit)
 Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
 
 
+# Acid Lime — attribution
+
+Catalog source: https://github.com/openvetta/vetta-design-templates
+Upstream: https://github.com/openvetta/vetta-design-templates
+Original reference: https://uilingo.dev/styles/acid-graphics/
+Prior adaptation: Authored by Grok Bot. Original Acid Lime system for a local-first agent named Pith. Mood only, and not in the repo: a user-supplied mobile mock of two black phones on a lime-to-peach field, with an acid-lime action, lilac and blush tiles, an iridescent orb, and fine contour lines. Also mood only: UI Lingo Acid Graphics (https://uilingo.dev/styles/acid-graphics/) for black ground, one neon acid green, and liquid blobs; BENIBIX Acid (https://design.benibix.com/styles/acid/) for poison-bright green on black and liquid shapes; Acid Chrome system notes (https://freedesignmd.com/system/acid-chrome) for a near-black field and acid green reserved for actions; StyleMD Acid Black (https://getstylemd.com/library/acid-black) for chemical green on things you press, with wide type and mono readouts. This system keeps the lime-on-black, the liquid orb, and the reserved action color. It does not take the fisheye grid, spiky starbursts, or chrome-filled warped display type. No upstream assets, screenshots, logos, or copied code.
+License: MIT (https://opensource.org/license/mit)
+Changes by 567 Agent Style Library: catalog normalization, mirrored resources and appended attribution/license notices; original style prose and tokens retained.
+
+
 # Slack — attribution
 
 Catalog source: https://github.com/openvetta/vetta-design-templates
